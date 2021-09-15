@@ -41,9 +41,9 @@ function speak(){
 
 Webcam.set({
     width:360,
-    height:250,
+    height:360,
     image_format:'png',
-    png_quality:100
+    png_quality:90
 })
 camera=document.getElementById("camera");
 
